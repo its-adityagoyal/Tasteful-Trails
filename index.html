@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasteful Trails</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kalnia:wght@500&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Whisper&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="notification"></div>
+    <nav class="nav_bar">
+        <div class="nav_bar1">
+            <img src="./Image/logo.jpg">
+        </div>
+        <div class="nav_bar2">
+            <input type="checkbox" id="menu_icon">
+            <ul class="nav_bar3">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about_us">About Us</a></li>
+                <li><a href="#contact_us">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="nav_bar3">
+            <button class="login"><a href=""><img src="./Image/login.jpg"></a></button>
+            <button class="cart"><a href="cart.html"><img src="./Image/cart.jpg"></a></button>
+            <span id="item-counter">0</span>
+            <label class="menu_icon" for="menu_icon"><img src="./Image/menu_icon.jpg"></label>
+        </div>
+    </nav>
+
+    <div id="home">
+        <h1>Tasteful Trails</h1>
+        <div class="home" id="home1">
+            <p>A Symphony of Flavors in Every Dish</p>
+        </div>
+        <div class="home" id="home2">
+            <p>Where Every Bite Tells a Delicious Story</p>
+        </div>
+        <div class="home" id="home3">
+            <p>Savor the Moment, Taste the Perfection</p>
+        </div>
+        <div class="form"><button><a href="#menu">Explore Our Menu!</a></button></div>
+    </div>
+
+    <div id="menu" class="menu">
+        <h1>"Indulge Your Senses: A Symphony of Culinary Delights Await on Our Delectable Menu!"</h1>
+        <div class="switch_menu">
+            <button><a href="#starters">Starters</a></button>
+            <button><a href="#maincourse">Courses</a></button>
+            <button><a href="#dessert">Dessert</a></button>
+            <button><a href="#beverages">Beverages</a></button>
+        </div>
+        <div class="menu_types" id="starters">
+            <fieldset>
+                <legend>Starters</legend>
+                <div class="cards_1">
+                    <div class="cards"><img src="./Image/img2.jpg">
+                        <h3>₹99</h3>
+                        <p>Crispy Baby Corn</p>
+                        <button class="btn" id="1">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img19.jpg">
+                        <h3>₹99</h3>
+                        <p>French Fries</p>
+                        <button class="btn" id="2">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img10.jpg">
+                        <h3>₹79</h3>
+                        <p>Paneer Tikka</p>
+                        <button class="btn" id="3">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img11.jpg">
+                        <h3>₹79</h3>
+                        <p>Tomato Soup</p>
+                        <button class="btn" id="4">Add to cart</button>
+                    </div>
+                </div>
+                <div class="cards_2">
+                    <div class="cards"><img src="./Image/img12.jpg">
+                        <h3>₹99</h3>
+                        <p>Hakka Noodles</p>
+                        <button class="btn" id="5">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img13.jpg">
+                        <h3>₹59</h3>
+                        <p>Steamed Momos</p>
+                        <button class="btn" id="6">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img14.jpg">
+                        <h3>₹119</h3>
+                        <p>Alfredo</p>
+                        <button class="btn" id="7">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img15.jpg">
+                        <h3>₹119</h3>
+                        <p>Veggie Pizza</p>
+                        <button class="btn" id="8">Add to cart</button>
+                    </div>
+                </div>
+            </fieldset>
+
+        </div>
+        <div class="menu_types" id="maincourse">
+            <fieldset>
+                <legend>Main Courses</legend>
+                <div class="cards_1">
+                    <div class="cards"><img src="./Image/img1.jpg">
+                        <h3>₹40</h3>
+                        <p>Veg Roll</p>
+                        <button class="btn" id="9">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img6.jpg">
+                        <h3>₹49</h3>
+                        <p>Cheese Paratha</p>
+                        <button class="btn" id="10">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img7.jpg">
+                        <h3>₹99</h3>
+                        <p>Caribbean Roti</p>
+                        <button class="btn" id="11">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img8.jpg">
+                        <h3>₹79</h3>
+                        <p>Fish Fry</p>
+                        <button class="btn" id="12">Add to cart</button>
+                    </div>
+                </div>
+                <div class="cards_2">
+                    <div class="cards"><img src="./Image/img9.jpg">
+                        <h3>₹59</h3>
+                        <p>Pulao</p>
+                        <button class="btn" id="13">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img16.jpg">
+                        <h3>₹129</h3>
+                        <p>Meat Special</p>
+                        <button class="btn" id="14">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img17.jpg">
+                        <h3>₹119</h3>
+                        <p>Shahi Paneer</p>
+                        <button class="btn" id="15">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img21.jpg">
+                        <h3>₹149</h3>
+                        <p>Chicken Drumstick</p>
+                        <button class="btn" id="16">Add to cart</button>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="menu_types" id="dessert">
+            <fieldset>
+                <legend>Desserts</legend>
+                <div class="cards_1">
+                    <div class="cards"><img src="./Image/img25.jpg">
+                        <h3>₹79</h3>
+                        <p>Oyster Pudding</p>
+                        <button class="btn" id="17">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img35.jpg">
+                        <h3>₹25</h3>
+                        <p>Gulab Jamun</p>
+                        <button class="btn" id="18">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img36.jpg">
+                        <h3>₹30</h3>
+                        <p>Soan Papdi</p>
+                        <button class="btn" id="19">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img37.jpg">
+                        <h3>₹49</h3>
+                        <p>Dal Baati Churma</p>
+                        <button class="btn" id="20">Add to cart</button>
+                    </div>
+                </div>
+                <div class="cards_2">
+                    <div class="cards"><img src="./Image/img28.jpg">
+                        <h3>₹49</h3>
+                        <p>Plum Cake</p>
+                        <button class="btn" id="21">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img29.jpg">
+                        <h3>₹49</h3>
+                        <p>Chocolate Pastry</p>
+                        <button class="btn" id="22">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img32.jpg">
+                        <h3>₹59</h3>
+                        <p>Sweet Special</p>
+                        <button class="btn" id="23">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img31.jpg">
+                        <h3>₹49</h3>
+                        <p>Mixed Berry Icecream</p>
+                        <button class="btn" id="24">Add to cart</button>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="menu_types" id="beverages">
+            <fieldset>
+                <legend>Beverages</legend>
+                <div class="cards_1">
+                    <div class="cards"><img src="./Image/img4.jpg">
+                        <h3>₹69</h3>
+                        <p>Iced Chocolate</p>
+                        <button class="btn" id="25">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img38.jpg">
+                        <h3>₹49</h3>
+                        <p>Royal Drink</p>
+                        <button class="btn" id="26">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img39.jpg">
+                        <h3>₹25</h3>
+                        <p>Masala Soda</p>
+                        <button class="btn" id="27">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img40.jpg">
+                        <h3>₹30</h3>
+                        <p>Orange Juice</p>
+                        <button class="btn" id="28">Add to cart</button>
+                    </div>
+                </div>
+                <div class="cards_2">
+                    <div class="cards"><img src="./Image/img41.jpg">
+                        <h3>₹30</h3>
+                        <p>Coffee</p>
+                        <button class="btn" id="29">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img42.jpg">
+                        <h3>₹25</h3>
+                        <p>Darjeeling Tea</p>
+                        <button class="btn" id="30">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img43.jpg">
+                        <h3>₹49</h3>
+                        <p>Blue Lagoon</p>
+                        <button class="btn" id="31">Add to cart</button>
+                    </div>
+                    <div class="cards"><img src="./Image/img44.jpg">
+                        <h3>₹35</h3>
+                        <p>Lemon Soda</p>
+                        <button class="btn" id="32">Add to cart</button>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <div id="about_us">
+        <div class="about_us_body">
+            <div class="about_us">
+                <img class="founder_img" src="./Image/founder.jpg">
+                <h1 class="founder_name">Elena Morgan</h1>
+            </div>
+            <div class="about_us">
+                <p>At Tasteful Trails, we embark on a culinary journey curated with passion and flavor, and it all began
+                    with our visionary founder, Elena Morgan. Her dedication to crafting delightful experiences through
+                    delectable dishes has shaped Tasteful Trails into a haven for gastronomic enthusiasts. Join us on
+                    this savory adventure, where each bite tells a story of Elena's unwavering commitment to the art of
+                    fine dining.</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div id="contact_us"><button  class="back_to_top"><a href="#home">Back To Top</a></button></div>
+    <div class="footer">
+        <div class="footer_left">
+            <h6>Contact Us</h6>
+            <p>Phone: +91 84562 16556</p>
+            <p>Email: TastefulTrails@ac.in</p>
+        </div>
+        <div class="footer_mid">
+            <p>Terms and conditions</p>
+            <p>Privacy Policy</p>
+            <p>Copyright Information</p>
+
+        </div>
+        <div class="footer_right">
+            <h6>Our Social Media Handles</h6>
+            <p><a href="https://www.instagram.com" target="_blank">Instagram</a><img src="./Image/instagram.jpg"></p>
+            <p><a href="https://www.facebook.com" target="_blank">Facebook</a><img src="./Image/facebook.jpg"></p>
+            <p><a href="https://www.twitter.com" target="_blank">Twitter</a><img src="./Image/twitter.jpg"></p>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
